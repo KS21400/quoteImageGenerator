@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "heroku-postbuild":  "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +15,8 @@
     "cors": "^2.8.5",
     "express": "^4.17.3",
     "html2canvas": "^1.4.1"
+  },
+  "engines": {
+    "node": "14.15.0"
   }
 }
